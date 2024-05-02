@@ -1,0 +1,59 @@
+.custom-table {
+    /* align-items: center;
+     */
+     margin-left: 5%;
+    margin-top: 1%;
+    width: 90%;
+    border: 1px solid #ccc; /* Add border to the table */
+    border-collapse: collapse; /* Collapse table borders */
+}
+
+.custom-table th, .custom-table td {
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #ccc; /* Add border to table cells */
+    padding: 8px; /* Adjust padding */
+}
+
+.custom-table th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn {
+    padding: 8px 16px;
+    font-size: 14px;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    margin-right: 5px; /* Add margin between buttons */
+}
+
+.btn-info:last-child {
+    margin-right: 0; /* Remove margin from the last button in each row */
+}
+
+.btn-info:hover {
+    background-color: #138496;
+    border-color: #117a8b;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    margin-right: 5px; /* Add margin between buttons */
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+.back-button-container {
+    position: relative;
+    margin-top: 1%;
+    margin-left: 90%;
+    
+}

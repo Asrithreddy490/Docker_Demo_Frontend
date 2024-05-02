@@ -1,0 +1,54 @@
+.form-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    max-width: 400px;
+    margin-top: 3% !important;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button-group {
+    display: flex; /* Use flexbox layout */
+    justify-content: space-between; /* Align buttons with space between */
+}
+
+button[type="button"], button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="button"]:hover, button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.btn-primary {
+    margin-top: 15px;
+}
+.btn-secondary{
+    margin-left: 2%;
+    background-color: red !important;
+    width: 25%;
+    margin-top: 4% !important;
+    
+}

@@ -1,0 +1,31 @@
+<div class="back-button-container">
+  <button class="btn btn-secondary" (click)="goBack()">Back</button>
+</div>
+
+<table class="table table-striped custom-table">
+  <thead>
+      <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Salary</th>
+          <th>Attendance</th>
+          <th>Password</th>
+          <th>Action</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr *ngFor="let employee of employees">
+          <td>{{ employee.id }}</td>
+          <td>{{ employee.name }}</td>
+          <td>{{ employee.email }}</td>
+          <td>{{ employee.salary | currency: 'INR'}}</td>
+          <td>{{ employee.attendance }}</td>
+          <td>{{ employee.password }}</td>
+          <td>
+              <button class="btn btn-info" (click)="updateEmployee(employee.id)">Update</button>
+              <button class="btn btn-danger" (click)="deleteEmployee(employee.id)">Delete</button>
+          </td>
+      </tr>
+  </tbody>
+</table>
